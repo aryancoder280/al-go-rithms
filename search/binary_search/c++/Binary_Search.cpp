@@ -3,7 +3,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int arr[100];
+vector<int>arr; //IN int arr[100], what if I put elements more than 100. Now, vector<int>arr  will alocate memory dynamically. The vector class will grow or shrink automatically as we include or remove the elements.   
 int binary(int l,int r,int key)
 {
 	while(l<=r)
